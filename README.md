@@ -11,9 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Build Settings：
 
-在App 的 `Target` - `Build Settings` 中添加编译选项
-`Other C Flags` 增加 `-fsanitize-coverage=func,trace-pc-guard`
-> OC - Swift 混编，则在 `Other Swift Flags` 增加 `-sanitize-coverage=func,-sanitize=undefined`
+在App 的 `Target` - `Build Settings` - `Other C Flags` **Debug**  增加 `-fsanitize-coverage=func,trace-pc-guard`
+> OC - Swift 混编，则在 `Other Swift Flags` **Debug** 增加 `-sanitize-coverage=func` 和 `-sanitize=undefined`
 
 ---
 
@@ -50,7 +49,7 @@ pod 'ClangTrace', :git => 'https://github.com/huipengo/ClangTrace.git', :configu
 会在 App 的沙盒的 tmp 目录下生成 `trace.order` 文件
 
 > Xcode 的连接器 ld 默认忽略 `order file` 中 `不存在的方法`
-如果设置 `Other Linker Flags：` `-order_file_statistics`，会以 `warning` 的形式把这些没找到的符号打印在日志里
+在 `Other Linker Flags：` **Debug** 添加 `-order_file_statistics`，会以 `warning` 的形式把这些没找到的符号打印在日志里
 
 
 ## Author
