@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C40297B4F2AFC5AF47D9617C7246E2A /* Pods-ClangTrace-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E899D712FA51F6FF7BECBE71AD25081A /* Pods-ClangTrace-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		336FBBE1F2D6F68CAE56488D3C5AB253 /* WBClangTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F19CAB5AE1BED8548632F682DB641D /* WBClangTrace.m */; };
+		3397734F63C0233EE16514530BFE8D05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3A8A522CD0F37914FB19F9FB8EA5CD1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		555563E091885867C5B64CFE11A320E0 /* wb-trace-pc-guard-cb.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C0530B1729C2450EB55040E2AD4FDF3 /* wb-trace-pc-guard-cb.c */; };
+		71D6D5E47CD4113AFACA047ED19EB0D8 /* ClangTrace-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 107932CA71A80CF1CC6F999318ABAEE2 /* ClangTrace-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EEE77A06965D0109107F3F482AA59DB /* Pods-ClangTrace_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE09E6C7EC90B69EA272C2967692614F /* Pods-ClangTrace_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F9389982EF9057EA303B439DAB94C4E /* Pods-ClangTrace_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7571D9DC421CE56AE234589F6BEC552A /* Pods-ClangTrace_Tests-dummy.m */; };
+		A88DFD252687443A1A78DEBE82791ACB /* WBClangTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = B34F9C76C48EF210D5406D3DB00AA9AB /* WBClangTrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2CDBB5AFEBC2D83BCFEF4531CFC84F3 /* ClangTrace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4195C8CD235C0F522D01B90274B63C /* ClangTrace-dummy.m */; };
+		E9BC8462963087EC2B4CABA3B42B740C /* wb-trace-pc-guard-cb.h in Headers */ = {isa = PBXBuildFile; fileRef = B5BFD558FDBAA61C0E4E14698AF9D904 /* wb-trace-pc-guard-cb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F419B17CFB93AB867431851AE02942E2 /* Pods-ClangTrace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 593F397E4B5C4575929FCE9309C8FC02 /* Pods-ClangTrace-dummy.m */; };
+		F9CC66D1CF01B23FE5365C4EFB87E610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53319ED35DB08A62D79DFA6A7A327E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7387538098D2CA3AC03F74D21033345B;
+			remoteInfo = ClangTrace;
+		};
+		FC2193B9F0F75BE1C7F802A251316E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9890D2041167BAC5D9BA0605CC3B7952;
+			remoteInfo = "Pods-ClangTrace";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107932CA71A80CF1CC6F999318ABAEE2 /* ClangTrace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClangTrace-umbrella.h"; sourceTree = "<group>"; };
+		185A2ADFF6F9C0C7E9F4243FF1A694E9 /* Pods-ClangTrace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClangTrace.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		386F161510A822B0579CDBFF744B6A4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3FCD189B0EF02126A781F66F79C06EF1 /* Pods-ClangTrace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClangTrace.debug.xcconfig"; sourceTree = "<group>"; };
+		46206DECD865C6C95CDF0AEA13A56A1B /* Pods_ClangTrace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClangTrace_Tests.framework; path = "Pods-ClangTrace_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525578A3B96BED76CE9111892FC72F8B /* Pods-ClangTrace_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClangTrace_Tests.modulemap"; sourceTree = "<group>"; };
+		593F397E4B5C4575929FCE9309C8FC02 /* Pods-ClangTrace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClangTrace-dummy.m"; sourceTree = "<group>"; };
+		5EE8C7C35AD4A2E512A660D564F2AA3E /* Pods-ClangTrace.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClangTrace.modulemap"; sourceTree = "<group>"; };
+		7571D9DC421CE56AE234589F6BEC552A /* Pods-ClangTrace_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClangTrace_Tests-dummy.m"; sourceTree = "<group>"; };
+		7C786C99D3E7D04842B266290A44B3FB /* Pods-ClangTrace_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClangTrace_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		846428B9065A75097F3C69F77CA29453 /* ClangTrace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClangTrace.debug.xcconfig; sourceTree = "<group>"; };
+		8C0530B1729C2450EB55040E2AD4FDF3 /* wb-trace-pc-guard-cb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "wb-trace-pc-guard-cb.c"; path = "Pod/Classes/wb-trace-pc-guard-cb.c"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07E67A3549D1BC6F2607356D7EA4896 /* Pods-ClangTrace-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClangTrace-frameworks.sh"; sourceTree = "<group>"; };
+		A7AC65C94C42D78AA6FE27DD3657C40D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B232B94295449CBBD5CD085637BD5AB2 /* Pods-ClangTrace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClangTrace-Info.plist"; sourceTree = "<group>"; };
+		B34F9C76C48EF210D5406D3DB00AA9AB /* WBClangTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBClangTrace.h; path = Pod/Classes/WBClangTrace.h; sourceTree = "<group>"; };
+		B57BF2844BC62A19A02A119EC4D80CBB /* Pods-ClangTrace-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClangTrace-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5BFD558FDBAA61C0E4E14698AF9D904 /* wb-trace-pc-guard-cb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "wb-trace-pc-guard-cb.h"; path = "Pod/Classes/wb-trace-pc-guard-cb.h"; sourceTree = "<group>"; };
+		BA66D551DAE4D892BCD753222058ACB2 /* Pods-ClangTrace_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClangTrace_Tests-Info.plist"; sourceTree = "<group>"; };
+		BD0B5F3D12C774CA0166FAFA6794657C /* ClangTrace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ClangTrace.framework; path = ClangTrace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDD0EED97EADA03026B6FA31343AF6D /* ClangTrace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClangTrace-Info.plist"; sourceTree = "<group>"; };
+		C9E25B331D3B0E4AE8128D37856B4027 /* ClangTrace.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClangTrace.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE09E6C7EC90B69EA272C2967692614F /* Pods-ClangTrace_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClangTrace_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D37751AB7E6AE5FA05296FE332C59DDE /* Pods_ClangTrace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClangTrace.framework; path = "Pods-ClangTrace.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EA966E0F56AE3EDBAFED0E205DADE4 /* Pods-ClangTrace-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClangTrace-acknowledgements.plist"; sourceTree = "<group>"; };
+		D446F88B89F99B4BBD1918609A15B489 /* ClangTrace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClangTrace-prefix.pch"; sourceTree = "<group>"; };
+		D5F19CAB5AE1BED8548632F682DB641D /* WBClangTrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBClangTrace.m; path = Pod/Classes/WBClangTrace.m; sourceTree = "<group>"; };
+		E208137C7E90782441FDDDFC1D945F09 /* Pods-ClangTrace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClangTrace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E899D712FA51F6FF7BECBE71AD25081A /* Pods-ClangTrace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClangTrace-umbrella.h"; sourceTree = "<group>"; };
+		EC7CF9060E76F37302D380A3EA06C79B /* ClangTrace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClangTrace.release.xcconfig; sourceTree = "<group>"; };
+		EFEFBFCE95893BBDA5EBC07888BDA4E1 /* Pods-ClangTrace_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClangTrace_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F325BABA62EC2FBEB8D9CD5C225E5F20 /* Pods-ClangTrace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClangTrace_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F6B7344AF1217DD0893BD660A5ADC7F0 /* ClangTrace.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClangTrace.modulemap; sourceTree = "<group>"; };
+		FB4195C8CD235C0F522D01B90274B63C /* ClangTrace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClangTrace-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E9C3E3CBC69654BCDBEF3CD036AF7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8A522CD0F37914FB19F9FB8EA5CD1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60070FFC53443C253342075B8F138DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CC66D1CF01B23FE5365C4EFB87E610 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB2D093C7CDC0D3770009729ADA431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3397734F63C0233EE16514530BFE8D05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060B98B6515A96984F0338A55C228B0D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C9E25B331D3B0E4AE8128D37856B4027 /* ClangTrace.podspec */,
+				386F161510A822B0579CDBFF744B6A4B /* LICENSE */,
+				A7AC65C94C42D78AA6FE27DD3657C40D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4E32346900ABB2535CE93B3C429B6E8C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8319BD314C23A9EDBF7D5E040B5F7C93 /* ClangTrace */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5CE9179ED194EDA8C941D31FA74726D7 /* Pods-ClangTrace */ = {
+			isa = PBXGroup;
+			children = (
+				5EE8C7C35AD4A2E512A660D564F2AA3E /* Pods-ClangTrace.modulemap */,
+				B57BF2844BC62A19A02A119EC4D80CBB /* Pods-ClangTrace-acknowledgements.markdown */,
+				D3EA966E0F56AE3EDBAFED0E205DADE4 /* Pods-ClangTrace-acknowledgements.plist */,
+				593F397E4B5C4575929FCE9309C8FC02 /* Pods-ClangTrace-dummy.m */,
+				A07E67A3549D1BC6F2607356D7EA4896 /* Pods-ClangTrace-frameworks.sh */,
+				B232B94295449CBBD5CD085637BD5AB2 /* Pods-ClangTrace-Info.plist */,
+				E899D712FA51F6FF7BECBE71AD25081A /* Pods-ClangTrace-umbrella.h */,
+				3FCD189B0EF02126A781F66F79C06EF1 /* Pods-ClangTrace.debug.xcconfig */,
+				185A2ADFF6F9C0C7E9F4243FF1A694E9 /* Pods-ClangTrace.release.xcconfig */,
+			);
+			name = "Pods-ClangTrace";
+			path = "Target Support Files/Pods-ClangTrace";
+			sourceTree = "<group>";
+		};
+		6A06847BB794B55887DBB81C54EFCDD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD0B5F3D12C774CA0166FAFA6794657C /* ClangTrace.framework */,
+				D37751AB7E6AE5FA05296FE332C59DDE /* Pods_ClangTrace.framework */,
+				46206DECD865C6C95CDF0AEA13A56A1B /* Pods_ClangTrace_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8319BD314C23A9EDBF7D5E040B5F7C93 /* ClangTrace */ = {
+			isa = PBXGroup;
+			children = (
+				8C0530B1729C2450EB55040E2AD4FDF3 /* wb-trace-pc-guard-cb.c */,
+				B5BFD558FDBAA61C0E4E14698AF9D904 /* wb-trace-pc-guard-cb.h */,
+				B34F9C76C48EF210D5406D3DB00AA9AB /* WBClangTrace.h */,
+				D5F19CAB5AE1BED8548632F682DB641D /* WBClangTrace.m */,
+				060B98B6515A96984F0338A55C228B0D /* Pod */,
+				C50D2FE1E595953BF422AAA9FCC2538C /* Support Files */,
+			);
+			name = ClangTrace;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BCE7E73DD46E77B844E562E2D4A0C450 /* Pods-ClangTrace_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				525578A3B96BED76CE9111892FC72F8B /* Pods-ClangTrace_Tests.modulemap */,
+				EFEFBFCE95893BBDA5EBC07888BDA4E1 /* Pods-ClangTrace_Tests-acknowledgements.markdown */,
+				7C786C99D3E7D04842B266290A44B3FB /* Pods-ClangTrace_Tests-acknowledgements.plist */,
+				7571D9DC421CE56AE234589F6BEC552A /* Pods-ClangTrace_Tests-dummy.m */,
+				BA66D551DAE4D892BCD753222058ACB2 /* Pods-ClangTrace_Tests-Info.plist */,
+				CE09E6C7EC90B69EA272C2967692614F /* Pods-ClangTrace_Tests-umbrella.h */,
+				E208137C7E90782441FDDDFC1D945F09 /* Pods-ClangTrace_Tests.debug.xcconfig */,
+				F325BABA62EC2FBEB8D9CD5C225E5F20 /* Pods-ClangTrace_Tests.release.xcconfig */,
+			);
+			name = "Pods-ClangTrace_Tests";
+			path = "Target Support Files/Pods-ClangTrace_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C50D2FE1E595953BF422AAA9FCC2538C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6B7344AF1217DD0893BD660A5ADC7F0 /* ClangTrace.modulemap */,
+				FB4195C8CD235C0F522D01B90274B63C /* ClangTrace-dummy.m */,
+				BEDD0EED97EADA03026B6FA31343AF6D /* ClangTrace-Info.plist */,
+				D446F88B89F99B4BBD1918609A15B489 /* ClangTrace-prefix.pch */,
+				107932CA71A80CF1CC6F999318ABAEE2 /* ClangTrace-umbrella.h */,
+				846428B9065A75097F3C69F77CA29453 /* ClangTrace.debug.xcconfig */,
+				EC7CF9060E76F37302D380A3EA06C79B /* ClangTrace.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ClangTrace";
+			sourceTree = "<group>";
+		};
+		CEC5EDFB88D8EA5C950B1BC27C2AED93 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE9179ED194EDA8C941D31FA74726D7 /* Pods-ClangTrace */,
+				BCE7E73DD46E77B844E562E2D4A0C450 /* Pods-ClangTrace_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4E32346900ABB2535CE93B3C429B6E8C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6A06847BB794B55887DBB81C54EFCDD0 /* Products */,
+				CEC5EDFB88D8EA5C950B1BC27C2AED93 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A6521D8695D3937C9FBF398C3D37E8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEE77A06965D0109107F3F482AA59DB /* Pods-ClangTrace_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937FB1BE777F4D867724324F8E3AEE2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D6D5E47CD4113AFACA047ED19EB0D8 /* ClangTrace-umbrella.h in Headers */,
+				E9BC8462963087EC2B4CABA3B42B740C /* wb-trace-pc-guard-cb.h in Headers */,
+				A88DFD252687443A1A78DEBE82791ACB /* WBClangTrace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65EA686F520182EBC56AF40D5C975EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C40297B4F2AFC5AF47D9617C7246E2A /* Pods-ClangTrace-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23E3BA81B8182CDAC5A196ACCDBF506B /* Pods-ClangTrace_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6B37718A09177A83EA385C8927C144 /* Build configuration list for PBXNativeTarget "Pods-ClangTrace_Tests" */;
+			buildPhases = (
+				3A6521D8695D3937C9FBF398C3D37E8C /* Headers */,
+				3AB94E543E0D02895932F1570F5F0C16 /* Sources */,
+				D60070FFC53443C253342075B8F138DD /* Frameworks */,
+				3E05A692CB6715FD21C721E00F07EDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5438D2F6DA5B65676D5AB20320A019A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ClangTrace_Tests";
+			productName = "Pods-ClangTrace_Tests";
+			productReference = 46206DECD865C6C95CDF0AEA13A56A1B /* Pods_ClangTrace_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7387538098D2CA3AC03F74D21033345B /* ClangTrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976A02E3DCE916EEB2163249DAD9368A /* Build configuration list for PBXNativeTarget "ClangTrace" */;
+			buildPhases = (
+				937FB1BE777F4D867724324F8E3AEE2E /* Headers */,
+				71898685BC21612937FED9BE39B2F7B5 /* Sources */,
+				F3DB2D093C7CDC0D3770009729ADA431 /* Frameworks */,
+				058F89CED9A32CD2E161E795F647F585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClangTrace;
+			productName = ClangTrace;
+			productReference = BD0B5F3D12C774CA0166FAFA6794657C /* ClangTrace.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9890D2041167BAC5D9BA0605CC3B7952 /* Pods-ClangTrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BD9FF9B96762F956DC451C6DBA77BA /* Build configuration list for PBXNativeTarget "Pods-ClangTrace" */;
+			buildPhases = (
+				B65EA686F520182EBC56AF40D5C975EE /* Headers */,
+				EE0A3CBFD7CB87A4DD7A4FCCC2CBD385 /* Sources */,
+				4E9C3E3CBC69654BCDBEF3CD036AF7EE /* Frameworks */,
+				EE133CBBD735A363BCD12845DBDF4F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5F9E80EF2BA711DCDF0116CCFE68D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ClangTrace";
+			productName = "Pods-ClangTrace";
+			productReference = D37751AB7E6AE5FA05296FE332C59DDE /* Pods_ClangTrace.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6A06847BB794B55887DBB81C54EFCDD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7387538098D2CA3AC03F74D21033345B /* ClangTrace */,
+				9890D2041167BAC5D9BA0605CC3B7952 /* Pods-ClangTrace */,
+				23E3BA81B8182CDAC5A196ACCDBF506B /* Pods-ClangTrace_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058F89CED9A32CD2E161E795F647F585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E05A692CB6715FD21C721E00F07EDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE133CBBD735A363BCD12845DBDF4F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB94E543E0D02895932F1570F5F0C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9389982EF9057EA303B439DAB94C4E /* Pods-ClangTrace_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71898685BC21612937FED9BE39B2F7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CDBB5AFEBC2D83BCFEF4531CFC84F3 /* ClangTrace-dummy.m in Sources */,
+				555563E091885867C5B64CFE11A320E0 /* wb-trace-pc-guard-cb.c in Sources */,
+				336FBBE1F2D6F68CAE56488D3C5AB253 /* WBClangTrace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0A3CBFD7CB87A4DD7A4FCCC2CBD385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F419B17CFB93AB867431851AE02942E2 /* Pods-ClangTrace-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5438D2F6DA5B65676D5AB20320A019A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ClangTrace";
+			target = 9890D2041167BAC5D9BA0605CC3B7952 /* Pods-ClangTrace */;
+			targetProxy = FC2193B9F0F75BE1C7F802A251316E47 /* PBXContainerItemProxy */;
+		};
+		ED5F9E80EF2BA711DCDF0116CCFE68D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ClangTrace;
+			target = 7387538098D2CA3AC03F74D21033345B /* ClangTrace */;
+			targetProxy = 53319ED35DB08A62D79DFA6A7A327E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D49B179EFBA4691E4C532C853BF0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F325BABA62EC2FBEB8D9CD5C225E5F20 /* Pods-ClangTrace_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClangTrace_Tests/Pods-ClangTrace_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClangTrace_Tests/Pods-ClangTrace_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09DC8ED8C62F1F2CC322EDCC9C0D9919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846428B9065A75097F3C69F77CA29453 /* ClangTrace.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ClangTrace/ClangTrace-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClangTrace/ClangTrace-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClangTrace/ClangTrace.modulemap";
+				PRODUCT_MODULE_NAME = ClangTrace;
+				PRODUCT_NAME = ClangTrace;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		372F5154F90DEF5C8F7A5474B33CBBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E208137C7E90782441FDDDFC1D945F09 /* Pods-ClangTrace_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClangTrace_Tests/Pods-ClangTrace_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClangTrace_Tests/Pods-ClangTrace_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44E464C192A16D83DF9E66DD730B9FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7CF9060E76F37302D380A3EA06C79B /* ClangTrace.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ClangTrace/ClangTrace-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClangTrace/ClangTrace-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClangTrace/ClangTrace.modulemap";
+				PRODUCT_MODULE_NAME = ClangTrace;
+				PRODUCT_NAME = ClangTrace;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E7229C4ABDBF9409EC6007E91BC2B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185A2ADFF6F9C0C7E9F4243FF1A694E9 /* Pods-ClangTrace.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClangTrace/Pods-ClangTrace-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClangTrace/Pods-ClangTrace.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4B9391EBA9A05F45116E693200C2766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCD189B0EF02126A781F66F79C06EF1 /* Pods-ClangTrace.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClangTrace/Pods-ClangTrace-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClangTrace/Pods-ClangTrace.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976A02E3DCE916EEB2163249DAD9368A /* Build configuration list for PBXNativeTarget "ClangTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DC8ED8C62F1F2CC322EDCC9C0D9919 /* Debug */,
+				44E464C192A16D83DF9E66DD730B9FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BD9FF9B96762F956DC451C6DBA77BA /* Build configuration list for PBXNativeTarget "Pods-ClangTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B9391EBA9A05F45116E693200C2766 /* Debug */,
+				4E7229C4ABDBF9409EC6007E91BC2B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6B37718A09177A83EA385C8927C144 /* Build configuration list for PBXNativeTarget "Pods-ClangTrace_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372F5154F90DEF5C8F7A5474B33CBBD2 /* Debug */,
+				04D49B179EFBA4691E4C532C853BF0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

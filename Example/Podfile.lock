@@ -1,0 +1,16 @@
+PODS:
+  - ClangTrace (0.1.0)
+
+DEPENDENCIES:
+  - ClangTrace (from `../`)
+
+EXTERNAL SOURCES:
+  ClangTrace:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ClangTrace: 19dba07ab2600547b755aa8cb140247486ccf294
+
+PODFILE CHECKSUM: 0499bd9d11e8cdef4313e4eb048b19fafed4c473
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module ClangTrace {
+  umbrella header "ClangTrace-umbrella.h"
+
+  export *
+  module * { export * }
+}
